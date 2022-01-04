@@ -1,0 +1,254 @@
+.pokemonImg{
+    width: 15vw;
+    height: auto;
+}
+.pokemonBall{
+    height: 2rem;
+    width: auto;
+}
+.searchContainer{
+    overflow-y: auto;
+    scroll-behavior: smooth; 
+    max-height: 65vh;
+}
+.pokeFont{
+    font-family: 'Pokemon Solid', sans-serif;
+                                                
+}
+
+#selectedTurn p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(153, 153, 153);
+    letter-spacing: 2px;
+    margin: 0px;
+}
+#selectedTips p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(153, 153, 153);
+    letter-spacing: 2px;
+    margin: 0px;
+}
+#selectedTips p i{
+    color: #ffe600;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+.fontSize-5{
+    font-size: 2.3rem;
+    margin: 0;
+    color: rgb(0, 143, 0);
+    margin-left: 1rem;
+}
+.fontSize-5R{
+    font-size: 2.3rem;
+    margin: 0;
+    color: rgb(224, 0, 0);
+    margin-left: 1rem;
+}
+
+.searchContainerA{
+    padding: 2vw 2vw 0px 0px;
+}
+.searchContainerB{
+    padding: 2vw 2vw 0px 2vw;
+}
+.background-main{
+    background-image: url('./src/img/Pokemonst.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 80vh;
+}
+/*Team estilos*/
+
+#teamContainer{
+  display: none;
+    width: 100vw;
+    height: 80vh;
+ 
+}
+.minH{
+    min-height: 70vh;
+}
+
+.pokemonContainerCard{
+    border-radius: 0px 25px 25px 25px;
+
+    width: 110px;
+    height: 160px;
+    padding: 5px;
+    background-color: #ffe600;
+
+}
+
+.pokemonContainerCardContImg{
+    border-top: 4px solid rgb(255, 0, 0);
+    border-bottom: 4px solid #fff;
+    background-color: rgb(68, 255, 152);
+    height: 100px;
+    width: 100%;
+    border-radius: 50px;
+    overflow: hidden;
+    justify-content: center;
+}
+.pokemonContainerCardContImg > img{
+        width: 100%;
+        height: auto;
+
+}
+
+.pokemonContainerCardBottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pokemonContainerCardBottomAtack{
+
+    justify-content: space-evenly;
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+.pokemonContainerCardBottomName {
+    
+color: grey;
+letter-spacing: 1px;
+font-weight: 500;
+
+
+}
+.pokemonContainerCardBottomAtack > div {
+    margin: 0px 1rem;
+}
+.pokemonContainerCardBottomAtack > div:hover {
+    margin: 0px 1rem;
+    color: red;
+}
+.arenaBatle{
+    background-image: url("./src/img/1200px-Estadio_Pokémon_2_SSBU.jpg");
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+.arenaBatle > div {
+    width: 75px;
+    height: 75px;
+}
+.shieldArena{
+    background-image: url("./src/img/Escudo-Png.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+}
+.powerdArena{
+    background-image: url("./src/img/Drago.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+}
+.shieldArena p {
+    font-weight: 700;
+    color: rgb(226, 43, 226);
+    
+}
+.powerdArena p{
+    font-weight: 700;
+    color: rgb(253, 0, 0);
+    margin-top:15px ;
+}
+
+#myTeamPlay{
+    padding: 10vh 0px;
+    height: 70vh;
+    background-image: url("./src/img/Meme.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#rivalTeamPlay{
+    padding: 10vh 0px;
+    height: 70vh;
+    background-image: url("./src/img/rintable.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+/* Estilos para motores Webkit y blink (Chrome, Safari, Opera... )*/
+
+.searchContainer::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.searchContainer::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.searchContainer::-webkit-scrollbar-button:increment,.searchContainer::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.searchContainer::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.searchContainer::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+.searchContainer::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+ /*Enable card*/
+
+ 
+.pokemonContainerCardX{
+    border-radius: 0px 25px 25px 25px;
+
+    width: 110px;
+    height: 160px;
+    padding: 5px;
+    background-color: #636363;
+    
+
+}
+
+
+.pokemonContainerCardBottomAtackX{
+
+    justify-content: space-evenly;
+    display: flex;
+    color: rgb(255, 255, 255);
+    display: none;
+}
+
+@media  screen and (max-width: 320px){
+
+    .minH{
+        min-height: 80vh;
+    }
+    
+    
+}
